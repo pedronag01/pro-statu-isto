@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(244, 248, 6);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(188, 177, 177);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+h3{
+    text-align: start;
+    margin-top: 50px;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 20px;  
+}
+body{
+    background-image: linear-gradient(to right, #1A0000, #4c107ee8) ;
+}
+div.video{
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 59%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
